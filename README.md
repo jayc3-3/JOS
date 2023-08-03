@@ -9,6 +9,10 @@
 Ever wanted to use DOS, but made by an amatuer and barely functional?
 Well, this is the thing for you!
 
+## Features:
+It can run!
+That's about it right now...
+
 ## How to run:
 ### QEMU:
 #### NOTE:
