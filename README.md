@@ -8,7 +8,7 @@ _________ _______  _______
 |\_)  )  | (___) |/\____) |
 (____/   (_______)\_______)
 ```
-Ever wanted to use DOS, but made by an amatuer and only half functional?
+Ever wanted to use DOS, but made by an amatuer and barely functional?
 Well, this is the thing for you!
 
 ## How to run:
