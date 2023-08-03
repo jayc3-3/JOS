@@ -26,7 +26,7 @@ havent tested enough yet, sry :(
 #### CDROM:
 1. Download latest .iso from "releases"
 
-2. Burn .iso to cd
+2. Burn .iso to CD
 
 3. Boot from CD
 
