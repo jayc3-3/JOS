@@ -25,7 +25,10 @@ Well, this is the thing for you!
 
 3. Boot from USB
 
-#### CDROM:
+#### CDROM
+##### Note:
+Booting from CD provides **NO** storage persistence! All data will be lost upon system shutdown.
+
 1. Download latest .iso from "releases"
 
 2. Burn .iso to CD
