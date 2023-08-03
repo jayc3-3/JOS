@@ -1,3 +1,4 @@
+```
 _________ _______  _______ 
 \__    _/(  ___  )(  ____ \
    )  (  | (   ) || (    \/
@@ -7,6 +8,7 @@ _________ _______  _______
 |\_)  )  | (___) |/\____) |
 (____/   (_______)\_______)
                            
+```
 
 Ever wanted to use DOS, but made by an amatuer and only half functional?
 Well, this is the thing for you!
