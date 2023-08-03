@@ -20,9 +20,9 @@ Well, this is the thing for you!
 3. Run 'qemu-system-i386 -drive media=cdrom,format=raw,file=JOS.iso' from the command line
 
 ### Real hardware:
-1. Download latest .iso from "releases"
+1. Download latest .bin from "releases" (or .iso when using cd's)
 
-2. Flash it to a USB (or any other media)
+2. Flash it to a USB drive (or any other media)
 
 3. Launch from your systems boot manager (varies on different computers)
 
