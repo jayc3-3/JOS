@@ -20,7 +20,7 @@ Well, this is the thing for you!
 ### Dependencies: (for building from source)
 NASM
 
-GCC and Binutils compiled to the 'i686-elf' target (see [here](wiki.osdev.org) for more info)
+GCC and Binutils compiled to the 'i686-elf' target (see [here](https://wiki.osdev.org/GCC_Cross-Compiler) for more info)
 
 The 'grub-pc-bin' package
 
