@@ -18,7 +18,7 @@ Well, this is the thing for you!
 3. Launch from your systems boot manager (varies on different computers)
 
 ### Dependencies: (for building from source)
-NASM
+The NASM assembler
 
 GCC and Binutils compiled to the 'i686-elf' target (see [here](https://wiki.osdev.org/GCC_Cross-Compiler) for more info)
 
