@@ -11,11 +11,14 @@ Well, this is the thing for you!
 
 ## How to run:
 ### QEMU:
-1. Download latest .img from "releases"
+#### NOTE:
+Using a .iso means you will have **NO** storage persistence
+
+1. Download latest .iso from "releases"
 
 2. Install QEMU
 
-3. Run 'qemu-system-i386 -drive format=raw,file=JOS.img' from the command line
+3. Run 'qemu-system-i386 -drive format=raw,file=JOS.iso' from the command line
 
 ### Real hardware:
 #### USB:
