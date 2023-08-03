@@ -21,7 +21,11 @@ Well, this is the thing for you!
 
 ### Real hardware:
 #### USB:
-havent tested enough yet, sry :(
+1. Download latest .iso from "releases"
+
+2. Flash .iso to drive
+
+3. Boot from USB
 
 #### CDROM:
 1. Download latest .iso from "releases"
