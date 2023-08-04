@@ -21,7 +21,7 @@ That's about it right now...
 
 2. Install QEMU
 
-3. Run 'qemu-system-i386 -drive format=raw,file=JOS.iso' from the command line
+3. Run 'qemu-system-i386 -drive media=cdrom,format=raw,file=JOS.iso' from the command line
 
 ### Real hardware:
 1. Download latest .iso from "releases"
