@@ -16,8 +16,6 @@ That's about it right now...
 
 ## How to run:
 ### QEMU:
-#### NOTE:
-Using a .iso means you will have **NO** storage persistence
 
 1. Download latest .iso from "releases"
 
@@ -26,22 +24,11 @@ Using a .iso means you will have **NO** storage persistence
 3. Run 'qemu-system-i386 -drive format=raw,file=JOS.iso' from the command line
 
 ### Real hardware:
-#### USB:
 1. Download latest .iso from "releases"
 
-2. Flash .iso to drive
+2. Flash .iso to media of your choice
 
-3. Boot from USB
-
-#### CDROM
-##### Note:
-Booting from CD provides **NO** storage persistence! All data will be lost upon system shutdown.
-
-1. Download latest .iso from "releases"
-
-2. Burn .iso to CD
-
-3. Boot from CD
+3. Boot from medium
 
 ### Dependencies: (for building from source)
 The NASM assembler
