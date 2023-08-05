@@ -24,11 +24,19 @@ It does nothing useful or practical!
 3. Run 'qemu-system-i386 -drive media=cdrom,format=raw,file=JOS.iso' from the command line
 
 ### Real hardware:
+#### USB:
+1. Download 'JOSusb.zip' from "releases"
+
+2. Unzip the .zip file into a FAT32 formatted USB
+
+3. Launch using your systems boot manager
+
+#### CDROM:
 1. Download latest .iso from "releases"
 
-2. Flash .iso to media of your choice
+2. Burn .iso to a CDROM
 
-3. Boot from medium
+3. Launch using your systems boot manager
 
 ### Dependencies: (for building from source)
 The NASM assembler
@@ -39,4 +47,4 @@ Limine
 
 Make
 
-After those are installed, just run the makefile!
+After those are installed, just run the makefile to either the 'usb' or 'iso' target
