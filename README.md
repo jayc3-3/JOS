@@ -1,10 +1,5 @@
-```
-       __ ____  _____
-      / // __ \/ ___/
- __  / // / / /\__ \ 
-/ /_/ // /_/ /___/ / 
-\____/ \____/ \___/  
-```
+![image](https://github.com/jayc3-3/JOS/assets/85657500/9c63f153-1bf5-4c5f-bf2e-08e7e5ae4421)
+
 Ever wanted to use DOS, but made by an amatuer and barely functional?
 Well, this is the thing for you!
 
