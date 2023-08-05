@@ -27,14 +27,14 @@ It does nothing useful or practical!
 #### USB:
 1. Download 'JOSusb.zip' from "releases"
 
-2. Unzip the .zip file into a FAT32 formatted USB
+2. Unzip the contents of the .zip file onto a FAT32 formatted USB
 
 3. Launch using your systems boot manager
 
-#### CDROM:
+#### ISO:
 1. Download latest .iso from "releases"
 
-2. Burn .iso to a CDROM
+2. Flash to USB drive or burn onto CDROM
 
 3. Launch using your systems boot manager
 
