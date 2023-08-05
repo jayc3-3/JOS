@@ -41,4 +41,6 @@ Limine
 
 Make
 
+Xorriso
+
 After those are installed, just run the makefile to either the 'usb' or 'iso' target
