@@ -35,7 +35,7 @@ The NASM assembler
 
 GCC and Binutils compiled to the 'i686-elf' target (see [here](https://wiki.osdev.org/GCC_Cross-Compiler) for more info)
 
-The 'grub-pc-bin' package
+Limine
 
 Make
 
