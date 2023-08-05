@@ -1,10 +1,9 @@
 ```
-       ______  _____
-      / / __ \/ ___/
- __  / / / / /\__ \ 
-/ /_/ / /_/ /___/ / 
-\____/\____//____/  
-                    
+       __ ____  _____
+      / // __ \/ ___/
+ __  / // / / /\__ \ 
+/ /_/ // /_/ /___/ / 
+\____/ \____//____/  
 ```
 Ever wanted to use DOS, but made by an amatuer and barely functional?
 Well, this is the thing for you!
