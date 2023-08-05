@@ -1,7 +1,9 @@
 #ifndef _CONSOLE_H
 #define _CONSOLE_H
 
-void console_init(int framebufferWidth, int framebufferHeight, int textColor, int backgroundColor);
+extern int cHeight;
+
+void console_init(int framebufferWidth, int framebufferHeight, int textScale, int textColor, int backgroundColor);
 void console_clear(void);
 void console_gotoLine(int line);
 

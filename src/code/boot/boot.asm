@@ -21,7 +21,7 @@ dd 32
 section .bss
 align 16
 stackBottom:
-resb 16384
+resb 32768
 stackTop:
 
 section .text

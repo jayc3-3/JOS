@@ -3,14 +3,12 @@
 
 unsigned int* fb_buffer;
 int fb_pitch;
-int fb_depth;
 int fb_width;
 int fb_height;
 
-void fb_init(unsigned long long framebufferAddr, int pitch, int colorDepth, int width, int height){
+void fb_init(unsigned long long framebufferAddr, int pitch, int width, int height){
 	fb_buffer = (unsigned int*)((unsigned int)framebufferAddr);
 	fb_pitch = pitch;
-	fb_depth = colorDepth;
 	fb_width = width;
 	fb_height = height;
 
@@ -52,8 +50,8 @@ void fb_drawRect(int x, int y, int w, int h, int color){;
 	return;
 }
 
-void fb_drawChar(char c, int x, int y, int color){
-	if(x > fb_width || y > fb_height || x+16 > fb_width || y+16 > fb_height){
+void fb_drawChar(char c, int x, int y, int scale, int color){
+	if(x+16 > fb_width || y+16 > fb_height){
 		return;
 	}
 
@@ -62,13 +60,30 @@ void fb_drawChar(char c, int x, int y, int color){
 	for(int yy = 0; yy < 8; yy++){
 		for(int xx = 0; xx < 8; xx++){
 			if(glyph[yy] & (1 << xx)){
-				fb_putPixel(x+(xx*2), y+(yy*2), color);
-				fb_putPixel(x+(xx*2), y+(yy*2)+1, color);
-				fb_putPixel(x+(xx*2)+1, y+(yy*2), color);
-				fb_putPixel(x+(xx*2)+1, y+(yy*2)+1, color);
+				for(int xi = 0; xi < scale; xi++){
+					for(int yi = 0; yi < scale; yi++){
+						fb_putPixel(x+(xx*scale)+xi, y+(yy*scale)+yi, color);
+					}
+				}
+
 			}
 		}
 	}
+
+	return;
+}
+
+void fb_drawImage(int x, int y, int w, int h, int scale, int* pixels){
+    int j;
+	for (int l = j = 0; l < h; l++){
+        for (int i = 0; i < w; i++, j++){
+			for(int xi = 0; xi < scale; xi++){
+				for(int yi = 0; yi < scale; yi++){
+					fb_putPixel(x + (i*scale)+xi, y + (l*scale)+yi, pixels[j]);
+				}
+			}
+        }
+    }
 
 	return;
 }

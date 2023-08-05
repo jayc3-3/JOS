@@ -8,7 +8,7 @@ CFLAGS = -ffreestanding -Wall -Iinclude
 LDFLAGS =  -T linker.ld -ffreestanding -nostdlib -lgcc
 EMUFLAGS = -net none -drive media=cdrom,format=raw,file=
 
-OBJFILES = boot.o kernel.o framebuffer.o string.o math.o console.o
+OBJFILES = boot.o kernel.o framebuffer.o string.o math.o console.o ports.o ps2.o JOSimage.o ps2Keyboard.o
 COMPILENAME = JOS-0.0.1
 
 all: iso
@@ -39,6 +39,18 @@ string.o: code/other/string.c
 	${CC} -c $< -o $@ ${CFLAGS}
 
 math.o: code/other/math.c
+	${CC} -c $< -o $@ ${CFLAGS}
+
+ports.o: code/hardware/ports.c
+	${CC} -c $< -o $@ ${CFLAGS}
+
+ps2.o: code/hardware/ps2.c
+	${CC} -c $< -o $@ ${CFLAGS}
+
+JOSimage.o: code/other/JOSimage.c
+	${CC} -c $< -o $@ ${CFLAGS}
+
+ps2Keyboard.o: code/hardware/ps2Keyboard.c
 	${CC} -c $< -o $@ ${CFLAGS}
 
 JOS.bin: ${OBJFILES}
