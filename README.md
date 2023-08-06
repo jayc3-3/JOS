@@ -4,6 +4,8 @@ Ever wanted to use DOS, but made by an amatuer and barely functional?
 Well, this is the thing for you!
 
 ## Features:
+Framebuffer Graphics
+
 PS/2 Keyboard Input
 
 (That's it.)
