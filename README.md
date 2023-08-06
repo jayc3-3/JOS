@@ -4,9 +4,9 @@ Ever wanted to use DOS, but made by an amatuer and barely functional?
 Well, this is the thing for you!
 
 ## Features:
-It does nothing useful or practical!
+PS/2 Keyboard Input
 
-(That counts as a feature, right?)
+(That's it.)
 
 ## How to run:
 ### QEMU:
