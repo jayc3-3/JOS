@@ -8,8 +8,6 @@ Framebuffer Graphics
 
 PS/2 Keyboard Input
 
-
-
 (That's it.)
 
 ## How to run:
