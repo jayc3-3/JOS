@@ -34,7 +34,7 @@ PS/2 Keyboard Input
 
 3. Launch using your systems boot manager
 
-### Dependencies: (for building from source)
+### Dependencies (for building from source)
 The NASM assembler
 
 GCC and Binutils compiled to the 'i686-elf' target (see [here](https://wiki.osdev.org/GCC_Cross-Compiler) for more info)
