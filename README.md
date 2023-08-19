@@ -12,12 +12,18 @@ PS/2 Keyboard Input
 
 ## How to run:
 ### QEMU:
-
 1. Download latest .iso from "releases"
 
 2. Install QEMU
 
 3. Run 'qemu-system-i386 -drive media=cdrom,format=raw,file=JOS.iso' from the command line
+
+### VirtualBox:
+1. Download latest .iso from "releases"
+
+2. Install VirtualBox
+
+3. Create new virtual machine with type 'Other' and version 'Other/Unknown'
 
 ### Real hardware:
 #### USB:
