@@ -40,6 +40,9 @@ PS/2 Keyboard Input
 
 3. Launch using your systems boot manager
 
+##### Note for running on real hardware
+Fails to boot with secure boot enabled, but that may vary based on hardware
+
 ### Dependencies (for building from source)
 The NASM assembler
 
