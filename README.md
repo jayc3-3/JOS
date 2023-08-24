@@ -10,6 +10,14 @@ PS/2 Keyboard Input
 
 (That's it.)
 
+## System Requirements:
+- An i686-compatible CPU
+- At least 16MiB of RAM
+- A GPU that can output 720p
+- LBA48-compliant hard drive
+
+(Basically anything that's made after the 2000s)
+
 ## How to run:
 ### QEMU:
 1. Download latest .iso from "releases"
