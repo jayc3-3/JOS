@@ -31,7 +31,9 @@ PS/2 Keyboard Input
 
 2. Unzip the contents of the .zip file onto a FAT32 formatted USB
 
-3. Launch using your systems boot manager
+3. (If not using a UEFI system) Run 'make usb' with the path to your USB drive (on linux this will be something like /dev/sdx)
+
+4. Launch using your systems boot manager
 
 #### ISO:
 1. Download latest .iso from "releases"
